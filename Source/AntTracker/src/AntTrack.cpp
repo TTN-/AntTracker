@@ -122,11 +122,11 @@
 
 */
 //#include <stdio.h>
-#include <mavlink_types.h>
+#include <include\mavlink\v2.0\mavlink_types.h>
 #include "config.h"                      // ESP_IDF libs included here
-#include <ardupilotmega/mavlink.h>
-#include <ardupilotmega/ardupilotmega.h>
-#include <SPI.h>
+#include <include\mavlink\v2.0\ardupilotmega\mavlink.h>
+#include <include\mavlink\v2.0\ardupilotmega/ardupilotmega.h>
+#include <SPI_ESP32.h>
 #include <Wire.h>
 
    String    pgm_path;
